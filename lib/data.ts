@@ -71,8 +71,9 @@ export const projectsData = [
     title: "Wanderlust",
     description:
       "Wanderlust is a property rental website which enables users to create accounts, add their property for listings,view them on an interactive map, and leave reviews",
-    tags: ["Express", "Node", "JavaScript", "MongoDB", "Tailwind"],
+    tags: ["Express.js", "Node", "JavaScript", "MongoDB", "Bootstrap"],
     imageUrl: wanderlust,
+    link:"https://wanderlust-0yl3.onrender.com/listings"
   },
   {
     title: "Space Portfolio",
@@ -80,6 +81,7 @@ export const projectsData = [
       "A portfolio is inspired by the awe-inspiring beauty of space exploration and features captivating animations and seamless transitions",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer-Motion"],
     imageUrl: space,
+    link:"https://space-portolio-sagar.vercel.app"
   },
   {
     title: "Portfolio",
@@ -87,6 +89,7 @@ export const projectsData = [
       "A Portfolio features captivating animations and seamless transitions. Integrated with an email API for easy communication, it's responsive across devices.",
     tags: ["React", "Next.js", "Typescript", "Tailwind", "Framer-Motion"],
     imageUrl: portfolio,
+    link:"https://myportfolio-sagar.vercel.app"
   },
 ] as const;
 // SKILLS
