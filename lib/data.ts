@@ -89,7 +89,7 @@ export const projectsData = [
       "A Portfolio features captivating animations and seamless transitions. Integrated with an email API for easy communication, it's responsive across devices.",
     tags: ["React", "Next.js", "Typescript", "Tailwind", "Framer-Motion"],
     imageUrl: portfolio,
-    link:"https://myportfolio-sagar.vercel.app"
+    link:"https://sagarmaiti.vercel.app"
   },
 ] as const;
 // SKILLS
