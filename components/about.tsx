@@ -25,7 +25,7 @@ export default function About() {
         is{" "}</span>
        
         <span className="font-medium">
-          React, Next.js, Node.js, Express.js and MongoDB.{" "}
+          React.js, Next.js, Node.js, Express.js and MongoDB.{" "}
         </span>
          
         <span className="font-light">But I am always looking to
