@@ -95,7 +95,7 @@ export const projectsData = [
     link:"https://space-portolio-sagar.vercel.app"
   },
   {
-    title: "Portfolio",
+    title: " Personal Portfolio",
     description:
       "A Portfolio features captivating animations and seamless transitions. Integrated with an email API for easy communication, it's responsive across devices.",
     tags: ["React", "Next.js", "Typescript", "Tailwind", "Framer-Motion"],
