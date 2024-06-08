@@ -83,7 +83,7 @@ export const projectsData = [
       "A property rental website which enables users to create accounts, add their property for listings, view them on an interactive map, and leave reviews",
     tags: ["Express.js", "Node.js", "MongoDB", "Bootstrap"],
     imageUrl: wanderlust,
-    link:"https://wanderlust-0yl3.onrender.com/listings"
+    link:"https://wanderlust-x.vercel.app"
   },
   
   {
