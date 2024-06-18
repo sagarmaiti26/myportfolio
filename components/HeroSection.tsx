@@ -13,7 +13,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+          className="col-span-9 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white text-4xl sm:text-4xl lg:text-6xl lg:leading-normal font-bold">
             <span className="text-gray-900">
@@ -40,7 +40,7 @@ const HeroSection = () => {
             
             </h3>
          
-          <p className="text-gray-950 font-light text-base sm:text-base mb-6 lg:text-l dark:text-gray-950">
+          <p className="text-gray-950 font-light lg:text-lg sm:text-base mb-6  dark:text-gray-950">
           I focus on developing beautiful and user friendly web applications.
           </p>
         </motion.div>
@@ -48,7 +48,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center "
+          className="col-span-3 place-self-center "
         >
           <div className="rounded-full w-[150px] h-[150px] lg:w-[200px] lg:h-[200px] relative">
             
