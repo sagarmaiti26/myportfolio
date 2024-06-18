@@ -19,18 +19,22 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      
-        <span className="font-light">I'm an <span className="font-medium">Computer Science Undergraduate from Calcutta Institute Of Engineering and Management.</span>{" "}I decided to pursue my
-        passion for programming and my journey in web development began during my Third year of college.{" "}I'm passionate about creating beautiful, functional, and user-friendly websites and applications. My core stack
-        is{" "}</span>
-       
+
+        <span className="font-light">I'm a <span className="font-medium">B.Tech Computer Science Graduate <span className="font-light">from</span>  Calcutta Institute Of Engineering and Management.</span>{" "}I decided to pursue my
+          passion for programming and my journey in web development began during my 3rd year of college.{" "}I'm passionate about creating beautiful and user-friendly web applications. My core stack
+          is{" "}</span>
+
         <span className="font-medium">
-          React.js, Next.js, Node.js, Express.js and MongoDB.{" "}
+          React.js, Next.js, Node.js, Express.js, MongoDB.  {" "}
         </span>
-         
-        <span className="font-light">But I am always looking to
-        learn new technologies. I am currently looking for a <span className="font-medium">Full-time position as a software
-        developer.</span> </span>
+
+        I am also proficient in
+        <span className="font-medium">{" "}
+          Java, SQL, Data Structures and Algorithms.{" "}
+        </span>
+
+        <span className="font-light"> I am always looking to
+          learn new technologies. Currently I am looking for a a full-time position that aligns with my skillset, where I can contribute to the company's growth and enhance my skills.</span>
       </p>
       <p></p>
     </motion.section>
