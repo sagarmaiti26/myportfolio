@@ -86,14 +86,7 @@ export const projectsData = [
     link: "https://wanderlust-x.vercel.app"
   },
 
-  {
-    title: "Space Portfolio",
-    description:
-      "A portfolio is inspired by the awe inspiring beauty of space exploration and features captivating animations and seamless transitions",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer-Motion"],
-    imageUrl: space,
-    link: "https://space-portolio-sagar.vercel.app"
-  },
+  
   {
     title: " Personal Portfolio",
     description:
@@ -101,6 +94,14 @@ export const projectsData = [
     tags: ["React", "Next.js", "Typescript", "Tailwind", "Framer-Motion"],
     imageUrl: portfolio,
     link: "https://sagarmaiti.vercel.app"
+  },
+  {
+    title: "Space Portfolio",
+    description:
+      "A portfolio is inspired by the awe inspiring beauty of space exploration and features captivating animations and seamless transitions",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer-Motion"],
+    imageUrl: space,
+    link: "https://space-portolio-sagar.vercel.app"
   },
   {
     title: "Stock Price Prediction",
