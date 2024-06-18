@@ -20,9 +20,9 @@ const HeroSection = () => {
               Hello, I&apos;m Sagar{" "}
             </span>
             </h1>
-            <h3 className="dark:text-white text-white text-xl sm:text-xl lg:text-2xl lg:leading-normal font-medium">
-                <span>I am into </span>
-                <span className="text-gray-900 lg:text-3xl font-bold"><TypeAnimation
+            <h3>
+                <span className="dark:text-gray-900 text-white text-xl sm:text-xl lg:text-2xl lg:leading-normal font-medium">I am into </span>
+                <span className="text-gray-900 dark:text-gray-100 lg:text-3xl font-bold "><TypeAnimation
               sequence={[
                 "Full Stack Developement",
                 1000,
@@ -59,19 +59,7 @@ const HeroSection = () => {
               width={350}
               height={350}
             />
-            {/* <motion.span
-            className="absolute bottom-0 right-0 text-6xl"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
-          >
-            👋
-          </motion.span> */}
+
           </div>
         </motion.div>
       </div>
