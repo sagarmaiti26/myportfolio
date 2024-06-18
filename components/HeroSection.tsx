@@ -48,17 +48,18 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
+          className="col-span-4 place-self-center "
         >
           <div className="rounded-full w-[150px] h-[150px] lg:w-[200px] lg:h-[200px] relative">
+            
             <Image
               src="/SagarMaiti.png"
               alt="Sagar Maiti"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full "
-              width={300}
-              height={300}
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full border-[0.1rem] dark:border-gray-900 border-[#a698ff] border-dashed shadow-xl "
+              width={350}
+              height={350}
             />
-            <motion.span
+            {/* <motion.span
             className="absolute bottom-0 right-0 text-6xl"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -70,7 +71,7 @@ const HeroSection = () => {
             }}
           >
             👋
-          </motion.span>
+          </motion.span> */}
           </div>
         </motion.div>
       </div>
