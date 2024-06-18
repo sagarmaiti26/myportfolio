@@ -16,13 +16,13 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white text-4xl sm:text-4xl lg:text-6xl lg:leading-normal font-bold">
-            <span className="text-gray-950">
+            <span className="text-gray-900">
               Hello, I&apos;m Sagar{" "}
             </span>
             </h1>
             <h3 className="dark:text-white text-white text-xl sm:text-xl lg:text-2xl lg:leading-normal font-medium">
                 <span>I am into </span>
-                <span className="text-gray-950 lg:text-3xl font-bold"><TypeAnimation
+                <span className="text-gray-900 lg:text-3xl font-bold"><TypeAnimation
               sequence={[
                 "Full Stack Developement",
                 1000,
