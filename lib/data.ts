@@ -6,6 +6,7 @@ import space from "@/public/spacePortfolio.png";
 import portfolio from "@/public/portfolio.png";
 import message from "@/public/message.png";
 import stock from "@/public/stock.jpeg";
+import pixelgenie from "@/public/pixelgenie.png";
 
 // Section
 export const links = [
@@ -57,7 +58,7 @@ export const educationData = [
     date: "2018-2019",
   },
   {
-    title: "Pulsita Bholanath Vidya Niketan(H.S)",
+    title: "Pulsita Bholanath Vidya Niketan (H.S)",
     type: "10th",
     subject: "Science",
     marks:
@@ -71,19 +72,26 @@ export const educationData = [
 
 export const projectsData = [
   {
+    title: "PixelGenie",
+    description:
+      "A SaaS application with AI features such as image restoration, generative fill, object removal and recoloring with integrated payments and credits system.",
+    tags: ["Next.js", "Node.js",  "TypeScript", "MongoDB","Clerk","Stripe"],
+    imageUrl: pixelgenie,
+    link: "https://pixelgenie-x.vercel.app/"
+  }, {
     title: "iMessage",
     description:
       "A real-time messaging web app inspired by iMessage with features like real-time personal and group chats, active member indicator, photo sharing and much more",
     tags: ["Next.js", "Node.js", "Pusher", "TypeScript", "MongoDB"],
     imageUrl: message,
-    link: "https://imessage-x.vercel.app"
+    link: "https://imessage-x.vercel.app/"
   }, {
     title: "Wanderlust",
     description:
       "A property rental website which enables users to create accounts, add their property for listings, view them on an interactive map, and leave reviews",
     tags: ["Express.js", "Node.js", "MongoDB", "Bootstrap"],
     imageUrl: wanderlust,
-    link: "https://wanderlust-x.vercel.app"
+    link: "https://wanderlust-x.vercel.app/"
   },
 
   
@@ -93,7 +101,7 @@ export const projectsData = [
       "A Portfolio features captivating animations and seamless transitions. Integrated with an email API for easy communication, it's responsive across devices.",
     tags: ["React", "Next.js", "Typescript", "Tailwind", "Framer-Motion"],
     imageUrl: portfolio,
-    link: "https://sagarmaiti.vercel.app"
+    link: "https://sagarmaiti.vercel.app/"
   },
   {
     title: "Space Portfolio",
@@ -101,15 +109,15 @@ export const projectsData = [
       "A portfolio is inspired by the awe inspiring beauty of space exploration and features captivating animations and seamless transitions",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer-Motion"],
     imageUrl: space,
-    link: "https://space-portolio-sagar.vercel.app"
+    link: "https://space-portolio-sagar.vercel.app/"
   },
   {
     title: "Stock Price Prediction",
     description:
       "Collaborated in a team to develop a stock price predictive model using machine learning and scikit learn python library.",
-    tags: ["Machine Learning", "Python", "Typescript", "Scikit Learn"],
+    tags: [ "Linear-regression","Python", "Machine Learning", "ScikitLearn"],
     imageUrl: stock,
-    link: "https://github.com/sagarmaiti26/Stock-Price-Prediction"
+    link: "https://github.com/sagarmaiti26/Stock-Price-Prediction/"
   },
 ] as const;
 // SKILLS

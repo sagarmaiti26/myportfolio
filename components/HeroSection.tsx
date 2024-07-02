@@ -55,7 +55,7 @@ const HeroSection = () => {
             <Image
               src="/SagarMaiti.png"
               alt="Sagar Maiti"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full border-[0.1rem] dark:border-gray-900 border-[#a698ff] border-dashed shadow-xl "
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full border-[0.1rem]  borderBlack shadow-xl "
               width={350}
               height={350}
             />
