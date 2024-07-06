@@ -46,7 +46,7 @@ export const educationData = [
       "CGPA : 9.23"
     ,
     icon: React.createElement(LuGraduationCap),
-    date: "2019-2023",
+    date: "2019 - 2023",
   },
   {
     title: "Ghoshpur High School (H.S)",
@@ -55,7 +55,7 @@ export const educationData = [
     marks:
       "",
     icon: React.createElement(FaSchool),
-    date: "2018-2019",
+    date: "2018 - 2019",
   },
   {
     title: "Pulsita Bholanath Vidya Niketan (H.S)",
@@ -64,7 +64,7 @@ export const educationData = [
     marks:
       "",
     icon: React.createElement(FaSchool),
-    date: "2016-2017",
+    date: "2016 - 2017",
   },
 ] as const;
 
@@ -124,28 +124,28 @@ export const projectsData = [
 
 export const skillsData = [
   // Front End
-  "HTML",
-  "CSS",
-  "Tailwind",
-  "Bootstrap",
-  "React",
-  "Next.js",
-  "Material UI",
+  { skill: "HTML", color: "red-600" },
+  { skill: "CSS", color: "blue-600" },
+  { skill: "Tailwind", color: "teal-400" },
+  { skill: "Bootstrap", color: "purple-600" },
+  { skill: "React", color: "sky-400" },
+  { skill: "Next.js", color: "black" },
+  { skill: "Material UI", color: "blue-500" },
 
   // Back End
-  "JavaScript",
-  "TypeScript",
-  "Node.js",
-  "Express.js",
-  "Java",
-  "SpringBoot",
-  "Hibernate",
+  { skill: "JavaScript", color: "yellow-400" },
+  { skill: "TypeScript", color: "blue-500" },
+  { skill: "Node.js", color: "green-500" },
+  { skill: "Express.js", color: "gray-800" },
+  { skill: "Java", color: "blue-700" },
+  { skill: "SpringBoot", color: "green-500" },
+  { skill: "Hibernate", color: "gray-600" },
 
-  "MongoDB",
-  "MySQL",
+  { skill: "MongoDB", color: "green-500" },
+  { skill: "MySQL", color: "blue-700" },
 
   // Tools and Languages
-  "Git",
-  "Framer Motion",
-  "VS Code"
+  { skill: "Git", color: "orange-600" },
+  { skill: "Framer Motion", color: "blue-600" },
+  { skill: "VS Code", color: "blue-600" }
 ] as const;
