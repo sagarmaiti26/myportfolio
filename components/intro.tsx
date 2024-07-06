@@ -76,7 +76,7 @@ export default function Intro() {
         </a>
         <a
           className="bg-white p-4 text-gray-800 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-green-600 active:scale-105 transition cursor-pointer  dark:bg-white/10 dark:text-white/60 dark:hover:text-green-600 dark:hover:bg-green-500/10"
-          href="https://leetcode.com/u/sagarmaiti277/"
+          href="https://www.geeksforgeeks.org/user/sagarmaiti277/"
           target="_blank"
         >
           <SiGeeksforgeeks />
