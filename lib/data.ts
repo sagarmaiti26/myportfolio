@@ -112,7 +112,7 @@ export const projectsData = [
     link: "https://space-portolio-sagar.vercel.app/"
   },
   {
-    title: "Stock Price Prediction",
+    title: "Stock Price Prediction Model",
     description:
       "Collaborated in a team to develop a stock price predictive model using machine learning and scikit learn python library.",
     tags: [ "Linear-regression","Python", "Machine Learning", "ScikitLearn"],
