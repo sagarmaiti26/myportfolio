@@ -59,6 +59,8 @@ export default function Intro() {
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
+
+
         <a
           className="bg-white p-4 text-gray-800 hover:text-sky-700 text-[1.35rem] flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer  dark:bg-white/10 dark:text-white/60 dark:hover:text-sky-600 dark:hover:bg-blue-500/10"
           href="https://www.linkedin.com/in/sagarmaiti26/"
@@ -81,6 +83,7 @@ export default function Intro() {
         >
           <SiGeeksforgeeks />
         </a>
+    
       </motion.div>
     </section>
   );
