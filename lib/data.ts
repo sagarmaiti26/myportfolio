@@ -38,11 +38,11 @@ export const links = [
   },
 ] as const;
 
-//EDUCATION
+//Experience
 export const experienceData = [
   {
     title: "Pointo",
-    type: "Full Stack Developer",
+    type: "Full Stack Developer Intern",
     subject:
       "(TypeScript, ReactJs, NodeJs, ExpressJs, SQL, Sequelize, FireBase, AWS)",
     marks: "Kolkata - Onsite",
@@ -57,6 +57,10 @@ export const experienceData = [
     icon: React.createElement(MdBusinessCenter),
     date: "2023 - 2024",
   },
+] as const;
+
+//EDUCATION
+export const educationData = [
   {
     title: "Calcutta Institute Of Enginnering and Management",
     type: "B.Tech | Computer Science Engineering",
