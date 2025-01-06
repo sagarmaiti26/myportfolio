@@ -42,12 +42,21 @@ export const links = [
 export const experienceData = [
   {
     title: "Pointo",
+    type: "Full Stack Developer",
+    subject:
+      "(TypeScript, ReactJs, NestJs, NodeJs, PostgreSQL, Sequelize, FireBase, AWS)",
+    marks: "Kolkata - Onsite",
+    icon: React.createElement(MdBusinessCenter),
+    date: "Jan 2025 - Present",
+  },
+  {
+    title: "Pointo",
     type: "Full Stack Developer Intern",
     subject:
       "(TypeScript, ReactJs, NodeJs, ExpressJs, SQL, Sequelize, FireBase, AWS)",
     marks: "Kolkata - Onsite",
     icon: React.createElement(MdBusinessCenter),
-    date: "2024 - Present",
+    date: "Sep 2024 - Dec 2024",
   },
   {
     title: "One24",
