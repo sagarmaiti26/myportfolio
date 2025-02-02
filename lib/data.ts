@@ -2,7 +2,6 @@ import React from "react";
 import { FaSchool } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { MdBusinessCenter } from "react-icons/md";
-import { FcBusinessContact } from "react-icons/fc";
 import wanderlust from "@/public/wanderlust.png";
 import space from "@/public/spacePortfolio.png";
 import portfolio from "@/public/portfolio.png";
