@@ -23,13 +23,7 @@ export default function About() {
         <span className="font-medium">Software Development Engineer (SDE-2)</span>
         <span className="font-light"> at </span>
         <span className="font-medium">Pointo</span>
-        <span className="font-light">
-          , where I build products end to end, from database design and backend
-          services to the frontend. I built the payments module with PayU and
-          Razorpay, automated Zoho invoicing to save the operations team 18 hours
-          a week, and set up CI/CD pipelines for zero-downtime deployments on
-          AWS.
-        </span>
+        <span className="font-light">.</span>
       </p>
 
       <p className="mb-3">
