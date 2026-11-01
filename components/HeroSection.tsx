@@ -15,22 +15,22 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-9 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white text-4xl sm:text-4xl lg:text-6xl lg:leading-normal font-bold">
-            <span className="text-gray-900">
+          <h1 className="text-brand text-4xl sm:text-4xl lg:text-6xl lg:leading-normal font-bold">
+            <span className="text-brand">
               Hello, I&apos;m Sagar{" "}
             </span>
             </h1>
             <h3>
-                <span className="dark:text-gray-900 text-white text-xl sm:text-xl lg:text-2xl lg:leading-normal font-medium">I am into </span>
-                <span className="text-gray-900 dark:text-gray-100 lg:text-3xl font-bold "><TypeAnimation
+                <span className="text-gray-700 dark:text-white/80 text-xl sm:text-xl lg:text-2xl lg:leading-normal font-medium">I am into </span>
+                <span className="text-gray-950 dark:text-white lg:text-3xl font-bold "><TypeAnimation
               sequence={[
-                "Full Stack Developement",
+                "Software Development",
                 1000,
-                "Frontend Developement",
+                "System Design",
                 1000,
-                "Backend Developement",
+                "Data Engineering",
                 1000,
-                "UI/UX Design",
+                "DevOps",
                 1000,
               ]}
               wrapper="span"
@@ -40,8 +40,8 @@ const HeroSection = () => {
             
             </h3>
          
-          <p className="text-gray-950 font-light lg:text-lg sm:text-base mb-6  dark:text-gray-950">
-          I focus on developing beautiful and user friendly web applications.
+          <p className="text-gray-700 font-light lg:text-lg sm:text-base mb-6  dark:text-white/80">
+          I design and build scalable, reliable systems, from backend services and data pipelines to cloud infrastructure and automated deployments. Lately, I've been exploring AI-driven development.
           </p>
         </motion.div>
         <motion.div
@@ -53,7 +53,7 @@ const HeroSection = () => {
           <div className="rounded-full w-[150px] h-[150px] lg:w-[200px] lg:h-[200px] relative">
             
             <Image
-              src="/profilephoto.jpg"
+              src="/sagarmaiti26.jpg"
               alt="Sagar Maiti"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full border-[0.1rem]  borderBlack shadow-xl "
               width={350}

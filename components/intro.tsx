@@ -40,7 +40,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-brand text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-brand-dark active:scale-105 transition"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
@@ -51,8 +51,8 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          className="group bg-white text-brand border border-brand px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer dark:bg-transparent"
+          href={process.env.NEXT_PUBLIC_CV_URL}
           download
         >
           Download CV{" "}
@@ -62,7 +62,7 @@ export default function Intro() {
 
 
         <a
-          className="bg-white p-4 text-gray-800 hover:text-sky-700 text-[1.35rem] flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer  dark:bg-white/10 dark:text-white/60 dark:hover:text-sky-600 dark:hover:bg-blue-500/10"
+          className="bg-white p-4 text-brand border border-brand flex items-center gap-2 text-[1.35rem] rounded-full dark:bg-transparent focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
           href="https://www.linkedin.com/in/sagarmaiti26/"
           target="_blank"
         >
@@ -70,14 +70,14 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 text-gray-800 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-black active:scale-105 transition cursor-pointer  dark:bg-white/10 dark:text-white/60 dark:hover:text-black dark:hover:bg-black/10"
+          className="bg-white p-4 text-brand border border-brand flex items-center gap-2 text-[1.35rem] rounded-full dark:bg-transparent focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
           href="https://github.com/sagarmaiti26"
           target="_blank"
         >
           <FaGithubSquare />
         </a>
         <a
-          className="bg-white p-4 text-gray-800 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-green-600 active:scale-105 transition cursor-pointer  dark:bg-white/10 dark:text-white/60 dark:hover:text-green-600 dark:hover:bg-green-500/10"
+          className="bg-white p-4 text-brand border border-brand flex items-center gap-2 text-[1.35rem] rounded-full dark:bg-transparent focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
           href="https://www.geeksforgeeks.org/user/sagarmaiti277/"
           target="_blank"
         >

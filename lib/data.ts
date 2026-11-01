@@ -3,10 +3,7 @@ import { FaSchool } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { MdBusinessCenter } from "react-icons/md";
 import wanderlust from "@/public/wanderlust.png";
-import space from "@/public/spacePortfolio.png";
-import portfolio from "@/public/portfolio.png";
 import message from "@/public/message.png";
-import stock from "@/public/stock.jpeg";
 import pixelgenie from "@/public/pixelgenie.png";
 
 // Section
@@ -43,7 +40,7 @@ export const experienceData = [
     title: "Pointo",
     type: "Full Stack Developer",
     subject:
-      "(TypeScript, ReactJs, ExpressJs, NodeJs, MySQL, Sequelize, FireBase, AWS)",
+      "(React.js, NestJS, PostgreSQL, Docker, AWS, Postman, Jira)",
     marks: "Kolkata - Onsite",
     icon: React.createElement(MdBusinessCenter),
     date: "Sep 2024 - Present",
@@ -113,31 +110,6 @@ export const projectsData = [
     tags: ["Express.js", "Node.js", "MongoDB", "Bootstrap"],
     imageUrl: wanderlust,
     link: "https://wanderlust-x.vercel.app/",
-  },
-
-  {
-    title: " Personal Portfolio",
-    description:
-      "A Portfolio features captivating animations and seamless transitions. Integrated with an email API for easy communication, it's responsive across devices.",
-    tags: ["React", "Next.js", "Typescript", "Tailwind", "Framer-Motion"],
-    imageUrl: portfolio,
-    link: "https://sagarmaiti.vercel.app/",
-  },
-  {
-    title: "Space Portfolio",
-    description:
-      "A portfolio is inspired by the awe inspiring beauty of space exploration and features captivating animations and seamless transitions",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer-Motion"],
-    imageUrl: space,
-    link: "https://space-portolio-sagar.vercel.app/",
-  },
-  {
-    title: "Stock Price Prediction Model",
-    description:
-      "Collaborated in a team to develop a stock price predictive model using machine learning and scikit learn python library.",
-    tags: ["Linear-regression", "Python", "Machine Learning", "ScikitLearn"],
-    imageUrl: stock,
-    link: "https://github.com/sagarmaiti26/Stock-Price-Prediction/",
   },
 ] as const;
 // SKILLS

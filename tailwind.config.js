@@ -7,6 +7,20 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        heading: ["var(--font-poppins)", "sans-serif"],
+      },
+      colors: {
+        brand: {
+          DEFAULT: "#F26B45",
+          dark: "#E0552F",
+          light: "#FFF1EC",
+        },
+        ink: {
+          DEFAULT: "#1A1A1A",
+          light: "#232323",
+        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

@@ -41,7 +41,8 @@ export default function ThemeContextProvider({
       if (localTheme === "dark") {
         document.documentElement.classList.add("dark");
       }
-    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    } else {
+      // dark is the default look of the site
       setTheme("dark");
       document.documentElement.classList.add("dark");
     }

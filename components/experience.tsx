@@ -24,7 +24,7 @@ export default function Timeline() {
     activeTab === "experience" ? experienceData : educationData;
 
   const contentStyle = {
-    background: theme === "light" ? "white" : "rgba(255, 255, 255, 0.05)",
+    background: theme === "light" ? "white" : "#1A1A1A",
     boxShadow:
       theme === "light"
         ? "0 4px 6px rgba(0, 0, 0, 0.1)"
@@ -32,7 +32,7 @@ export default function Timeline() {
     border:
       theme === "light"
         ? "1px solid rgba(0, 0, 0, 0.05)"
-        : "1px solid rgba(255, 255, 255, 0.1)",
+        : "1px solid rgba(255, 255, 255, 0.08)",
     borderRadius: "0.75rem",
     padding: "1.5rem",
   };
@@ -40,17 +40,18 @@ export default function Timeline() {
   const contentArrowStyle = {
     borderRight:
       theme === "light"
-        ? "0.4rem solid #e5e7eb"
-        : "0.4rem solid rgba(255, 255, 255, 0.2)",
+        ? "0.4rem solid #ffd0c0"
+        : "0.4rem solid #232323",
   };
 
   const iconStyle = {
-    background: theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
+    background: "#F26B45",
+    color: "white",
     fontSize: "1.5rem",
     boxShadow:
       theme === "light"
-        ? "0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05)"
-        : "0 0 0 4px rgba(255, 255, 255, 0.05), inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05)",
+        ? "0 0 0 4px #FFF8F5, 0 3px 0 4px rgba(242,107,69,.15)"
+        : "0 0 0 4px #000, 0 3px 0 4px rgba(242,107,69,.15)",
   };
 
   return (
@@ -71,8 +72,8 @@ export default function Timeline() {
               px-4 py-2 rounded-lg font-medium transition-all duration-200
               ${
                 activeTab === button.id
-                  ? "bg-gray-900 text-white dark:bg-white dark:text-gray-900"
-                  : "bg-gray-100 text-gray-900 hover:bg-gray-200 dark:bg-white/10 dark:text-white/70 dark:hover:bg-white/20"
+                  ? "bg-brand text-white"
+                  : "bg-white text-gray-900 borderBlack hover:text-brand dark:bg-ink dark:text-white/70 dark:hover:text-brand"
               }
             `}
           >
@@ -82,7 +83,7 @@ export default function Timeline() {
       </div>
 
       <VerticalTimeline
-        lineColor={theme === "light" ? "#e5e7eb" : "rgba(255, 255, 255, 0.2)"}
+        lineColor="rgba(242, 107, 69, 0.3)"
       >
         {activeData.map((item, index) => (
           <VerticalTimelineElement
@@ -93,9 +94,9 @@ export default function Timeline() {
             icon={item.icon}
             iconStyle={iconStyle}
           >
-            <div className="hover:bg-gray-50 dark:hover:bg-white/5 transition-all rounded-lg -mx-4 -my-3 p-4">
+            <div className="hover:bg-brand-light dark:hover:bg-white/5 transition-all rounded-lg -mx-4 -my-3 p-4">
               <h3 className="font-bold text-xl mb-1">{item.title}</h3>
-              <p className="font-medium text-gray-600 dark:text-white/75 mb-2">
+              <p className="font-medium text-brand mb-2">
                 {item.type}
               </p>
               <p className="text-gray-700 dark:text-white/60 mb-1">

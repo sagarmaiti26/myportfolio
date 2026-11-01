@@ -11,7 +11,7 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28 text-gray-700 dark:text-white/80"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -19,24 +19,44 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-
-        <span className="font-light">I'm a <span className="font-medium">B.Tech Computer Science Graduate <span className="font-light">from</span>  Calcutta Institute Of Engineering and Management.</span>{" "}I decided to pursue my
-          passion for programming and my journey in web development began during my 3rd year of college.{" "}I'm passionate about creating beautiful and user-friendly web applications. My core stack
-          is{" "}</span>
-
-        <span className="font-medium">
-          React.js, Next.js, Node.js, Express.js, MongoDB.  {" "}
+        <span className="font-light">I&apos;m a </span>
+        <span className="font-medium">Software Development Engineer (SDE-2)</span>
+        <span className="font-light"> at </span>
+        <span className="font-medium">Pointo</span>
+        <span className="font-light">
+          , where I build products end to end, from database design and backend
+          services to the frontend. I built the payments module with PayU and
+          Razorpay, automated Zoho invoicing to save the operations team 18 hours
+          a week, and set up CI/CD pipelines for zero-downtime deployments on
+          AWS.
         </span>
-
-        I am also proficient in
-        <span className="font-medium">{" "}
-          Java, SQL, Data Structures and Algorithms.{" "}
-        </span>
-
-        <span className="font-light"> I am always looking to
-          learn new technologies. Currently I am looking for a a full-time position that aligns with my skillset, where I can contribute to the company's growth and enhance my skills.</span>
       </p>
-      <p></p>
+
+      <p className="mb-3">
+        <span className="font-light">My core stack is </span>
+        <span className="font-medium text-brand">
+          TypeScript, React.js, Next.js, Node.js, NestJS, PostgreSQL, Docker and
+          AWS.
+        </span>
+        <span className="font-light"> I enjoy working on </span>
+        <span className="font-medium text-brand">
+          system design, data engineering and DevOps
+        </span>
+        <span className="font-light">
+          , and lately I&apos;ve been exploring AI-driven development and
+          learning how to build with AI.
+        </span>
+      </p>
+
+      <p className="mb-3">
+        <span className="font-light">I graduated in </span>
+        <span className="font-medium">Computer Science</span>
+        <span className="font-light"> from </span>
+        <span className="font-medium">
+          Calcutta Institute of Engineering and Management
+        </span>
+        <span className="font-light">.</span>
+      </p>
     </motion.section>
   );
 }
