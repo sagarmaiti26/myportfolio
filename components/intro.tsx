@@ -61,29 +61,30 @@ export default function Intro() {
 
 
 
-        <a
-          className="bg-white p-4 text-brand border border-brand flex items-center gap-2 text-[1.35rem] rounded-full dark:bg-transparent focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
-          href="https://www.linkedin.com/in/sagarmaiti26/"
-          target="_blank"
-        >
-          <BsLinkedin />
-        </a>
+        <div className="flex items-center justify-center gap-4">
+          <a
+            className="bg-white p-4 text-brand border border-brand flex items-center gap-2 text-[1.35rem] rounded-full dark:bg-transparent focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
+            href="https://www.linkedin.com/in/sagarmaiti26/"
+            target="_blank"
+          >
+            <BsLinkedin />
+          </a>
 
-        <a
-          className="bg-white p-4 text-brand border border-brand flex items-center gap-2 text-[1.35rem] rounded-full dark:bg-transparent focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
-          href="https://github.com/sagarmaiti26"
-          target="_blank"
-        >
-          <FaGithubSquare />
-        </a>
-        <a
-          className="bg-white p-4 text-brand border border-brand flex items-center gap-2 text-[1.35rem] rounded-full dark:bg-transparent focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
-          href="https://www.geeksforgeeks.org/user/sagarmaiti277/"
-          target="_blank"
-        >
-          <SiGeeksforgeeks />
-        </a>
-    
+          <a
+            className="bg-white p-4 text-brand border border-brand flex items-center gap-2 text-[1.35rem] rounded-full dark:bg-transparent focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
+            href="https://github.com/sagarmaiti26"
+            target="_blank"
+          >
+            <FaGithubSquare />
+          </a>
+          <a
+            className="bg-white p-4 text-brand border border-brand flex items-center gap-2 text-[1.35rem] rounded-full dark:bg-transparent focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
+            href="https://www.geeksforgeeks.org/user/sagarmaiti277/"
+            target="_blank"
+          >
+            <SiGeeksforgeeks />
+          </a>
+        </div>
       </motion.div>
     </section>
   );

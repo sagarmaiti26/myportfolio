@@ -51,7 +51,7 @@ export const experienceData = [
     subject: "(TypeScript, ReactJs, NextJs, TailwindCSS, Redux-Toolkit)",
     marks: "Remote",
     icon: React.createElement(MdBusinessCenter),
-    date: "2023 - 2024",
+    date: "Jan 2024 - Jun 2024",
   },
 ] as const;
 
@@ -136,6 +136,13 @@ export const skillsData = [
   // Database
   { skill: "PostgreSQL", color: "blue-700" },
   { skill: "MongoDB", color: "green-500" },
+
+  // AI
+  { skill: "Generative AI", color: "purple-600" },
+  { skill: "LangChain", color: "green-500" },
+  { skill: "LangGraph", color: "teal-400" },
+  { skill: "RAG", color: "blue-500" },
+  { skill: "MCP", color: "orange-600" },
 
   // Developer Tools
   { skill: "Git", color: "orange-600" },
