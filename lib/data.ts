@@ -115,29 +115,33 @@ export const projectsData = [
 // SKILLS
 
 export const skillsData = [
-  // Front End
-  { skill: "HTML", color: "red-600" },
-  { skill: "CSS", color: "blue-600" },
-  { skill: "Tailwind", color: "teal-400" },
-  { skill: "Bootstrap", color: "purple-600" },
-  { skill: "React", color: "sky-400" },
-  { skill: "Next.js", color: "black" },
-  { skill: "Material UI", color: "blue-500" },
-
-  // Back End
+  // Languages
   { skill: "JavaScript", color: "yellow-400" },
   { skill: "TypeScript", color: "blue-500" },
+  { skill: "Python", color: "blue-600" },
+
+  // Frontend
+  { skill: "React.js", color: "sky-400" },
+  { skill: "Next.js", color: "black" },
+  { skill: "Redux", color: "purple-600" },
+  { skill: "Tailwind", color: "teal-400" },
+  { skill: "Bootstrap", color: "purple-600" },
+  { skill: "Sass", color: "pink-500" },
+
+  // Backend
   { skill: "Node.js", color: "green-500" },
   { skill: "Express.js", color: "gray-800" },
-  { skill: "Java", color: "blue-700" },
-  { skill: "SpringBoot", color: "green-500" },
-  { skill: "Hibernate", color: "gray-600" },
+  { skill: "NestJS", color: "red-600" },
 
+  // Database
+  { skill: "PostgreSQL", color: "blue-700" },
   { skill: "MongoDB", color: "green-500" },
-  { skill: "MySQL", color: "blue-700" },
 
-  // Tools and Languages
+  // Developer Tools
   { skill: "Git", color: "orange-600" },
-  { skill: "Framer Motion", color: "blue-600" },
-  { skill: "VS Code", color: "blue-600" },
+  { skill: "AWS", color: "orange-600" },
+  { skill: "Docker", color: "blue-500" },
+  { skill: "Postman", color: "orange-600" },
+  { skill: "Jira", color: "blue-600" },
+  { skill: "BitBucket", color: "blue-600" },
 ] as const;
