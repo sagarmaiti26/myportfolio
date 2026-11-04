@@ -96,9 +96,51 @@ export default function Timeline() {
           >
             <div className="hover:bg-brand-light dark:hover:bg-white/5 transition-all rounded-lg -mx-4 -my-3 p-4">
               <h3 className="font-bold text-xl mb-1">{item.title}</h3>
-              <p className="font-medium text-brand mb-2">
-                {item.type}
-              </p>
+
+              {/* Role progression for experience entries */}
+              {"roles" in item && (item as (typeof experienceData)[number]).roles && (
+                <div className="mt-3 mb-3 border-l-2 border-gray-200 dark:border-gray-700 ml-1">
+                  {(item as (typeof experienceData)[number]).roles.map(
+                    (role, i) => (
+                      <div key={i} className="relative pl-5 pb-4 last:pb-0">
+                        {/* Dot positioned on the border line */}
+                        <div
+                          className={`absolute left-[-5px] top-[3px] w-2 h-2 rounded-full ${
+                            "current" in role && role.current
+                              ? "bg-green-500 ring-2 ring-green-500/30"
+                              : "bg-gray-400 dark:bg-gray-500"
+                          }`}
+                        />
+                        <p
+                          className={`font-semibold text-sm leading-none flex items-center ${
+                            "current" in role && role.current
+                              ? "text-green-600 dark:text-green-400"
+                              : "text-gray-600 dark:text-white/60"
+                          }`}
+                        >
+                          {role.title}
+                          {"current" in role && role.current && (
+                            <span className="ml-2 text-[10px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400 leading-none">
+                              Current
+                            </span>
+                          )}
+                        </p>
+                        <p className="text-xs text-gray-400 dark:text-white/40 mt-1">
+                          {role.date}
+                        </p>
+                      </div>
+                    )
+                  )}
+                </div>
+              )}
+
+              {/* Fallback for education entries that still use `type` */}
+              {"type" in item && (
+                <p className="font-medium text-brand mb-2">
+                  {(item as (typeof educationData)[number]).type}
+                </p>
+              )}
+
               <p className="text-gray-700 dark:text-white/60 mb-1">
                 {item.subject}
               </p>
